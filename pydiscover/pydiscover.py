@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import optparse
 import scapy.all as scapy
 
