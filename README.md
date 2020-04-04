@@ -9,8 +9,8 @@ Python >= 3.4
 
 > Example ARP spoofing attack
 
-    ./arpspoof 10.10.10.35 10.10.10.254
+`./arpspoof 10.10.10.35 10.10.10.254`
 
 > Example to discovery network
 
-    ./pydiscover -r 172.16.0.0/16
+`./pydiscover -r 172.16.0.0/16`
