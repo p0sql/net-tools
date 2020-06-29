@@ -1,5 +1,5 @@
 # net-tools
-This script allow an attacker or networks administrator scan the network to find available hosts in a network though ARP protocol.
+This script allow an attacker or networks administrator scan the network to find available hosts in a network through ARP protocol.
 
 ## Usage
 Python >= 3.4
