@@ -1,5 +1,5 @@
 # net-tools
-This script allow an attacker to carry out a Double Tagging Attack on a target vlan. Use Wireshark on the target to verify that you receive a icmp request from your IP if so, your switch have misconfigurations. 
+This script allow an attacker to carry out a Double Tagging Attack on a target vlan. Use Wireshark on the target to verify that you receive a ICMP request from your ip address, if so, your switches have misconfigurations. 
 
 ## Usage
 Python >= 3.4
