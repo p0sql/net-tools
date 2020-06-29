@@ -1,16 +1,10 @@
-# net-tools
-Networks tools to accomplish network discovery and ARP spoofing attack. These tools are useful for people works on Fedora or who use Linux distros does not have packages for netdiscover.
+# Networks Tools 
 
-## Usage
-Python >= 3.4
-> Scapy installation (Better in a venv)
+#### Spoofing, Discovery, Double Tagging Attacks
 
-`pip install --pre scapy[complete]`
+Networks tools to accomplish network discovery, ARP spoofing attack and Double Tagging Attack. These tools are useful for people works on Fedora or who use Linux distros does not have packages for netdiscover.
 
-> Example ARP spoofing attack
-
-`./arpspoof.py -t 10.10.10.35 -s 10.10.10.254`
-
-> Example to discovery network
-
-`./pydiscover.py -r 172.16.0.0/16`
+<h3>Summary</h3>
+<ul>
+  <li><h4> 2020-10-03 - <a href="https://github.com/p0sql/net-tools/tree/master/arpspoof">ARP Spoofing Attack</a></h4> </li>
+  <li><h4> 2020-10-03 - <a href="https://github.com/p0sql/net-tools/tree/master/pydiscover">Network Discovery</a></h4> </li>
