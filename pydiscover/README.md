@@ -1,15 +1,11 @@
 # net-tools
-Networks tools to accomplish network discovery and ARP spoofing attack. These tools are useful for people works on Fedora or who use Linux distros does not have packages for netdiscover.
+This script allow an attacker or networks administrator scan the network to find available hosts in a network though ARP protocol.
 
 ## Usage
 Python >= 3.4
 > Scapy installation (Better in a venv)
 
 `pip install --pre scapy[complete]`
-
-> Example ARP spoofing attack
-
-`./arpspoof.py -t 10.10.10.35 -s 10.10.10.254`
 
 > Example to discovery network
 
