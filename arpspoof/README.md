@@ -1,5 +1,5 @@
 # net-tools
-Networks tools to accomplish network discovery and ARP spoofing attack. These tools are useful for people works on Fedora or who use Linux distros does not have packages for netdiscover.
+ARP spoofing attack allow an attacker the possibility to sniffing the communication between hosts in a network. You can use Wireshark to listen the traffic when you use the script.
 
 ## Usage
 Python >= 3.4
@@ -10,7 +10,3 @@ Python >= 3.4
 > Example ARP spoofing attack
 
 `./arpspoof.py -t 10.10.10.35 -s 10.10.10.254`
-
-> Example to discovery network
-
-`./pydiscover.py -r 172.16.0.0/16`
