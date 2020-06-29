@@ -7,6 +7,6 @@ Python >= 3.4
 
 `pip install --pre scapy[complete]`
 
-> Example to discovery network
+> Example to discover network
 
 `./pydiscover.py -r 172.16.0.0/16`
